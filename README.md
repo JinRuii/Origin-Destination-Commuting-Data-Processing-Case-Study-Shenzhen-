@@ -1,10 +1,13 @@
 # Shenzhen Urban Mobility Analysis 🏙️🚶📊
 
-This project explores urban mobility patterns within Shenzhen, China, using OD (origin-destination) data and a spatial road network model. The analysis provides insights into travel trends, stay durations, and movement flows, supporting better urban planning and transportation decisions.
+This project explores urban mobility patterns within Shenzhen, China, with a focus on urban villages and their role in city dynamics. Using origin-destination (OD) data and a spatial road network model, this analysis provides insights into travel trends, stay durations, and movement flows, supporting better urban planning and transportation decisions.
+
+This project is inspired by the methodologies and findings presented in the article "Destigmatizing urban villages by examining their attractiveness: Quantification evidence from Shenzhen" published in Habitat International.
+https://doi.org/10.1016/j.habitatint.2024.103120
 
 ## Project Overview 🚀
 
-This analysis focuses on understanding how people move through Shenzhen's urban areas. Key components include:
+This analysis focuses on understanding how people move through Shenzhen's urban areas, particularly examining urban villages. Key components include:
 
 - **Road Network Visualization**: A detailed map of Shenzhen's road network, giving context to OD patterns.
 - **Stay Duration Analysis**: Insights into the average time spent across different administrative zones, revealing popular areas and temporal activity patterns.
@@ -21,20 +24,9 @@ The project combines data visualization, spatial analysis, and statistical proce
 
 ## Visual Results 📈
 
-### 1. Road Network Visualization 🛣️
-A clear visualization of Shenzhen's road network, providing a foundational map for the OD analysis.
+### 1. OD Travel Analysis by Time Period 🕒
+![image](https://github.com/user-attachments/assets/b2b1cc69-034e-4a24-b634-e8dc4694e27b)
 
-![Road Network](./out/pic/roadnet_shenzhen.svg)
-
-### 2. Stay Duration Analysis ⏳
-Box plots illustrating the average stay duration in each region. This helps identify areas with longer stays, potentially indicating high-interest zones.
-
-![Stay Duration](./out/pic/boxplot_of_stay_time_by_county.svg)
-
-### 3. OD Travel Analysis by Time Period 🕒
-OD distributions displayed across four daily time slots: early morning, mid-morning, afternoon, and evening. Below is an example for the 6-10h period, showing popular routes and movement patterns.
-
-![OD Pattern](./out/pic/od_county_2_uv_6_10h.svg)
 
 ## How to Use 🧑‍💻
 
